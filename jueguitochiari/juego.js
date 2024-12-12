@@ -260,6 +260,7 @@ sonidoMusica.pause();
     if (this.estado==="creditos") {
       if (this.botonReinicio.colisionMouse()) {
         this.estado="inicio";
+         sonidoMusica.pause();
       }
     }
   }
